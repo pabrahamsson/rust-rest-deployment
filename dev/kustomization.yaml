@@ -5,5 +5,5 @@ resources:
 - ../base
 images:
 - name: rust-rest
-  newName: image-registry.openshift-image-registry.svc:5000/rust-rest-dev/rust-rest
+  newName: rust-rest
   newTag: b4c34be

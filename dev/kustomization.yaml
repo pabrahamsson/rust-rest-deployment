@@ -6,4 +6,4 @@ resources:
 images:
 - name: rust-rest
   newName: rust-rest
-  newTag: v1
+  newTag: b4c34be

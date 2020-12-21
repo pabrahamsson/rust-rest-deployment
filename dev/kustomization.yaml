@@ -5,14 +5,14 @@ resources:
 - ../base
 images:
 - name: rust-rest
-  newName: rust-rest
-  newTag: b4c34be
-patchesJSON6902:
-- target:
-    version: v1
-    kind: Namespace
-    name: rust-rest-base
-  patch: |-
+  newName: image-registry.openshift-image-registry.svc:5000/rust-rest-build/rust-rest
+  newTag: b4c34be4597e0598d4fa4378e2f87167d25a9d3e
+patchesJson6902:
+- patch: |-
     - op: replace
       path: /metadata/name
       value: rust-rest-dev
+  target:
+    kind: Namespace
+    name: rust-rest-base
+    version: v1

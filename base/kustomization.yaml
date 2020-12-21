@@ -1,6 +1,5 @@
 ---
 resources:
-#  - rb-edit.yaml
   - ns.yaml
   - is.yaml
   - svc.yaml

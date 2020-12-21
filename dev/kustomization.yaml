@@ -6,7 +6,7 @@ resources:
 images:
 - name: rust-rest
   newName: image-registry.openshift-image-registry.svc:5000/rust-rest-build/rust-rest
-  newTag: b4c34be4597e0598d4fa4378e2f87167d25a9d3e
+  newTag: e8763a5052ce7b4df4d5420aa92dc166a8ce1491
 patchesJson6902:
 - patch: |-
     - op: replace
